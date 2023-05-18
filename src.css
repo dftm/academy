@@ -6,7 +6,7 @@ div.tl-content-full {
 
 body > div.container > div.row > div > div > div > div > div > div > div.row > div > div > a {
     min-width: 15em;
-  	background: #000230;
+  	//background: #000230;
 	font-size: 3em;
   	padding: 0.5em;  
 }
@@ -20,6 +20,14 @@ body > div.container > div.row > div > div > div > div > div > div > div.row > d
     margin-left: 190px;
     margin-top: -31px;
     font-size: 25px;
-    color: #000230;
+    color: #4757b3;
     font-weight: 500;
+}
+
+.btn-primary {
+    background-color: #4757b3;
+}
+
+.tl-title {
+    background-color: #4757b3;
 }
