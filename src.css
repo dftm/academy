@@ -18,11 +18,12 @@ body > div.container > div.row > div > div > div > div > div > div > div.row > d
 
 #Academy-nav-div {
     /* border: 1px solid red; */
-    margin-left: 190px;
-    margin-top: -31px;
-    font-size: 1.63em;
+    margin-left: 185px;
+    margin-top: -29px;
+    font-size: 1.65em;
     color: #4757b3;
     font-weight: 500;
+    font-family: 'Nunito';
 }
 
 .btn-primary {
