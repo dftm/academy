@@ -1,1 +1,1 @@
-$('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'https://cdn.jsdelivr.net/gh/dftm/academy@latest/src.css') );
+$('#navbar-cms > div > div > a.brand').append('Academy &#127963;');
