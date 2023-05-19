@@ -82,3 +82,7 @@ body > div.container > div.row > div > div > div > div > div > div > div:nth-chi
     width: 580px;
     margin: -5% 0 0 2%;
 }
+
+.brand > .avatar-square {
+    max-width: 260px;
+}
