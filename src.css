@@ -85,4 +85,7 @@ body > div.container > div.row > div > div > div > div > div > div > div:nth-chi
 /*homepage video player*/
 .row > .cms-page-only-media > .cms-page-only-media-wrapper > iframe.video-frame {
     height: 605px;
+    width: 865px;
+    margin-left: -25%;
+    margin-bottom: -40%;
 }
