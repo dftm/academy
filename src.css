@@ -46,7 +46,7 @@ body {
 }
 
 /* boxes */
-.padded-boxes &gt; * {
+.padded-boxes > * {
  width:100%;
  background:#eee;
  border-radius:.4rem;
@@ -68,7 +68,7 @@ body {
 
 /* tablet breakpoint */
 @media (min-width:768px) {
- .padded-boxes &gt; * {
+ .padded-boxes > * {
  width:calc((100% - 4rem) / 3);
  }
 }
