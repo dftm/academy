@@ -5,7 +5,7 @@ $('head').append('<link rel="stylesheet" href="https://fonts.googleapis.com/css?
 $('head').append('<link rel="stylesheet" type="text/css"/ href="https://cdn.jsdelivr.net/gh/dftm/academy@0c4c468/def.css">');
 
 //Custom CSS
-$('head').append('<link rel="stylesheet" type="text/css"/ href="https://cdn.jsdelivr.net/gh/dftm/academy@a9bc90d/src.css">');
+$('head').append('<link rel="stylesheet" type="text/css"/ href="https://cdn.jsdelivr.net/gh/dftm/academy@ccbefe9/src.css">');
 
 //check for brand image then show academy
 if ( $( ".navbar > .navbar-inner > .nav-container > a.brand>img" ).length ) {
