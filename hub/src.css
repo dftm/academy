@@ -1,0 +1,23 @@
+/*mega-menu*/
+.header{width: 100%; background: #000; position: relative;}
+.navigation-bar{position: relative;}
+#menu-icon{display: none;}
+.navigation-bar ul{margin: 0;padding: 0;}
+.navigation-bar ul li{list-style: none;display: inline-block;padding: 10px 15px}
+.navigation-bar ul li a{color: #fff;text-transform: capitalize; }
+.navigation-bar ul li a:hover{text-decoration: none;}
+#mega-menu-fresher{width: 980px; min-height: 320px;padding-top:10px; background: #fff;border: 1px solid #ccc;border-radius: 2px;position: absolute;top: 10px;display: none;left: 0}
+#mega-menu-fresher ul li{font-weight: normal;padding: 5px 15px;cursor: pointer;}
+#mega-menu-fresher ul li.vegies{font-weight: normal;padding: 5px 15px;cursor: pointer;transition: all ease 0.3s}
+#mega-menu-fresher ul li.vegies a{color: #000}
+#mega-menu-fresher ul li.vegies:hover{background: #84c225}
+#mega-menu-fresher ul li a{color: #000;}
+#mega-menu-fresher .main-mega-menu-section{width: 200px; height: 100%; position: relative;}
+.main-mega-menu-section li a{color:#000;}
+.main-mega-menu-section li ul.vegies{width: 250px; height: 320px;position: absolute;left: 200px; top: -10px;display: none; background: rgba(204, 204, 204, 0.47)}
+ul.vegies li{display: block; }
+#mega-menu-fresher ul li ul.vegies li:hover{background: #fff}
+ul.vegies li ul.vegies-submenu{width: 400px; height: 100%;position: absolute;left: 260px;; top: 0;display: none}
+ul.vegies li ul.vegies-submenu li{width: 40%; display: inline-block;vertical-align: top ;}
+.active-mega-menu{display: block !important}
+ul.vegies li ul.vegies-submenu li ul li{width: 100%; display: block}
