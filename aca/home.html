@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+   body {
+      padding: 1%;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+   }
+   * {
+      box-sizing: border-box;
+   }
+   .left, .right, .center {
+      float: left;
+      width: 33%;
+      color: white;
+      padding: 10px;
+      height: 500px;
+      text-align: center;
+   }
+   .left {
+      background-color: tomato;
+   }
+   .right {
+      background-color: teal;
+   }
+   .center {
+      background-color: rgb(166, 71, 255);
+   }
+   .container:after {
+      clear: both;
+   }
+</style>
+</head>
+<body>
+<h1 style="text-align: center;">Three Column grid example</h1>
+<div class="container">
+<div class="left">
+<h1>Some text on the left</h1>
+</div>
+<div class="center">
+<h1>Some text in center</h1>
+</div>
+<div class="right">
+<h1>Some text on the right</h1>
+</div>
+</div>
+</body>
+</html>
