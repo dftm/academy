@@ -1,0 +1,74 @@
+.video-div-left{
+    width: 50%;
+    display: inline-block;
+}
+
+.image-div-right{
+    width: 50%;
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 0%;
+    position: relative;
+    float:right;
+}
+
+.features-icons {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+  .features-icons .features-icons-item {
+    max-width: 20rem;
+  }
+  .features-icons .features-icons-item .features-icons-icon {
+    height: 7rem;
+  }
+  .features-icons .features-icons-item .features-icons-icon i {
+    font-size: 4.5rem;
+  }
+
+ .bg-light {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-0.5 * var(--bs-gutter-x));
+    margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+
+
+.mx-auto {
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+.bi-window::before {
+    content: "\f620";
+}
+
+.bi-layers::before {
+    content: "\f45b";
+}
+
+.bi-terminal::before {
+    content: "\f5c3";
+}
+
+
+[class^="bi-"]::before, [class*=" bi-"]::before {
+    display: inline-block;
+    font-family: bootstrap-icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: -.125em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
