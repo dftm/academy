@@ -1,9 +1,9 @@
-.video-div-left{
+#video-div-left{
     width: 50%;
     display: inline-block;
 }
 
-.image-div-right{
+#image-div-right{
     width: 50%;
     display: inline-block;
     margin-top: 5%;
@@ -30,6 +30,17 @@
     --bs-bg-opacity: 1;
     background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
 }
+
+.col-lg-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
+
+.text-primary {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+}
+
 .row {
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
