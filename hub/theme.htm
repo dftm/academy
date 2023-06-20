@@ -1,0 +1,43 @@
+<script type="text/javascript">
+  // ――――― Hide Elements ――――― //
+  $(document).ready(function () {
+    $(
+      "#hs_cos_wrapper_dnd_area_101-module-2 > div > section > div:nth-child(4) > div"
+    ).hide();
+    $(
+      "#hs_cos_wrapper_dnd_area_101-module-2 > div > section > div:nth-child(6) > div"
+    ).hide();
+  });
+  // ――――― Replace Footer ――――― //
+  //if(window.location.href.includes('test')) {
+  //  $("#main-content > div > div > div > div > div.row-fluid-wrapper.row-depth-1.row-number-4.dnd_area_101-row-3-max-width-section-centering.dnd-section.dnd_area_101-row-3-background-color").load('//cdn.jsdelivr.net/gh/dftm/deepop@45967af/foo/footer.htm');
+  //}
+  // ――――― Append Footer Alt Method ――――― //
+  if (window.location.href.includes("test")) {
+    $(
+      "#main-content > div > div > div > div > div.row-fluid-wrapper.row-depth-1.row-number-4.dnd_area_101-row-3-max-width-section-centering.dnd-section.dnd_area_101-row-3-background-color"
+    ).append(
+      $("<div>").load("//cdn.jsdelivr.net/gh/dftm/deepop@latest/gen/footer.htm")
+    );
+  }
+</script>
+<style type="text/css">
+  .focus_module_fancy_header:after {
+    display: none;
+  }
+  .dnd_area_101-row-1-padding {
+    padding-top: 0px !important;
+  }
+  body > div.section.footer-section {
+    -webkit-text-size-adjust: 100%;
+    color: #000230;
+    font-family: Nunito, sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: 15.6px;
+    box-sizing: border-box;
+    padding-bottom: 8em;
+    background-color: #000230;
+    padding-top: 6em;
+  }
+</style>
