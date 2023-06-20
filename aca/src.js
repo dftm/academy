@@ -4,8 +4,8 @@
 //}
 
 // ――――― logo-switcheroo ――――― //
-$(".navbar > .navbar-inner > .nav-container > a.brand > img").attr("src", "https://cdn.jsdelivr.net/gh/dftm/deepop@2dae74d/aca/logo.png");
+//$(".navbar > .navbar-inner > .nav-container > a.brand > img").attr("src", "https://cdn.jsdelivr.net/gh/dftm/deepop@2dae74d/aca/logo.png");
 //$(".navbar > .navbar-inner > .nav-container > a.brand > img").attr("width", "80%");
 
 // ――――― Code Highlights ――――― //
-hljs.highlightAll();
+//hljs.highlightAll();
