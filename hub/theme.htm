@@ -12,10 +12,22 @@
   //if(window.location.href.includes('test')) {
   //  $("#main-content > div > div > div > div > div.row-fluid-wrapper.row-depth-1.row-number-4.dnd_area_101-row-3-max-width-section-centering.dnd-section.dnd_area_101-row-3-background-color").load('//cdn.jsdelivr.net/gh/dftm/deepop@45967af/foo/footer.htm');
   //}
-  // ――――― Append Footer Alt Method ――――― //
+// ――――― Prepend Header Alt Method ――――― //
+  if (window.location.href.includes("test")) {
+//    $(
+//      "#main-content"
+//    ).prepend(
+ //     $("<div>").load("//cdn.jsdelivr.net/gh/dftm/deepop@latest/gen/head-01.htm")
+//    );
+    $(
+      "#main-content"
+    ).prepend(
+      $("<div>").load("//cdn.jsdelivr.net/gh/dftm/deepop@c5ac1c9/gen/head-02.htm")
+    );
+  }  // ――――― Append Footer Alt Method ――――― //
   if (window.location.href.includes("test")) {
     $(
-      "#main-content > div > div > div > div > div.row-fluid-wrapper.row-depth-1.row-number-4.dnd_area_101-row-3-max-width-section-centering.dnd-section.dnd_area_101-row-3-background-color"
+      "#main-content"
     ).append(
       $("<div>").load("//cdn.jsdelivr.net/gh/dftm/deepop@latest/gen/footer.htm")
     );
