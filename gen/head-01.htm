@@ -8,7 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- <link rel="stylesheet" href="style.css" /> -->
     <style type="text/css">
-    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
       *{
           box-sizing: border-box;
           padding: 0;
@@ -150,7 +149,7 @@
       }
       /* header */
       #mega .header{
-          background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://source.unsplash.com/g-kNBpqMIs4/1920x1400) center/cover no-repeat;
+          background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(//source.unsplash.com/g-kNBpqMIs4/1920x1400) center/cover no-repeat;
           height: 100vh;
           display: flex;
           flex-direction: column;
@@ -486,7 +485,7 @@
     <script src="script.js">
       $(document).ready(function(){
           $('.navbar-toggler').click(function(){
-              $('.navbar-collapse').slideToggle(300);
+              $('.navbar-collapse').slideToggle(600);
           });
 
           smallScreenMenu();
@@ -497,7 +496,7 @@
 
           $(window).resize(function(){
               clearTimeout(temp);
-              temp = setTimeout(resizeEnd, 100);
+              temp = setTimeout(resizeEnd, 200);
               resetMenu();
           });
       });
